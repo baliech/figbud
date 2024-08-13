@@ -49,7 +49,7 @@ def process_uploaded_files(uploaded_file):
 
 # Streamlit app interface
 st.set_page_config('claims validator', '🌐')
-st_lottie(lottieai,width=200,height=200)
+st_lottie(lottie_ai,width=200,height=200)
 
 st.title("Automated Claims Verification🚀")
 st.markdown("""
