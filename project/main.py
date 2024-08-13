@@ -130,6 +130,8 @@ if st.session_state.texts:
             "What is the invoice number?",
             "What is the invoice date?",
             "What is the invoice reference number?note that reference number is not the same as invoice number",
+            "What is Co Reg No?",
+            "What is GST Reg No?"
             "What is the total?",
             "From the text provided, can you find traditional Chinese medicine or TCM?"
         ],
