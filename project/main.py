@@ -122,7 +122,7 @@ if st.button('Extract text🏥', key='extract_button'):
 
 # Display predefined questions above the extracted text
 if st.session_state.texts:
-    st.header("Select a Question")
+    st.header("Select a Question to query extracted text")
     st.session_state.selected_question = st.selectbox(
         "Select a question:", 
         options=[
