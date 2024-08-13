@@ -29,7 +29,7 @@ def load_lottieurl(url:str):
     if r.status_code !=200:
         return None
     return r.json()
-lottie_ai = load_lottieurl("https://lottie.host/ccb05ce6-211d-4dc0-aed6-90c15111ba14/cbpLY6vPtv.json")
+lottie_ai = load_lottieurl("https://lottie.host/54225138-3908-4294-a70b-1b5c9cbb9f7e/mYvbWoiYHD.json")
 lottie_ais = load_lottieurl("https://lottie.host/44d9b3f5-6e06-4790-b891-5e9bde7e5a24/7x1fjA2NWz.json")
 
 def process_uploaded_files(uploaded_file):
@@ -49,6 +49,7 @@ def process_uploaded_files(uploaded_file):
 
 # Streamlit app interface
 st.set_page_config('claims validator', '🌐')
+st_lottie(lottieai,width=200,height=200)
 
 st.title("Automated Claims Verification🚀")
 st.markdown("""
