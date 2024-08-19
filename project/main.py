@@ -52,30 +52,6 @@ st.set_page_config('claims validator', '🌐')
 
 
 st.title("Automated Claims Verification🚀")
-st.markdown("""
-<style>
-[data-testid="stSidebarContent"] {
-    background-color:F0F2F6;
-    color:#0c005a;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-[data-testid="stMarkdownContainer"]{
-            color:#0c005a;}
-          h1{
-            color:#6643b5;
-            }
-            [id="c525ad7c"]{color:#6643b5;
-            }
-            [class="st-emotion-cache-1aehpvj e1bju1570"]{
-            color:#0c005a;}
-            [class="main st-emotion-cache-bm2z3a ea3mdgi8"]{
-            background-color:#dbd8e3;}
-            [data-testid="stHeader"]{
-            background-color:#dbd8e3;}
-[class="st-emotion-cache-uhkwx6 ea3mdgi6"]{
-            background-color:grey;}
-</style>
-    """, unsafe_allow_html=True)
 
 # Sidebar for file upload
 st.sidebar.title('Upload Document☁️')
