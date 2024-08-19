@@ -7,7 +7,7 @@ from streamlit_lottie import st_lottie
 
 
 
-genai.configure(api_key="AIzaSyCGEbJVxzvysT8Q-XJTecx46j9lV1IKSxU")
+genai.configure(api_key="AIzaSyAKPCsEM28_jJKaiNGNKWGLSD7_pYkC_hs")
 model = genai.GenerativeModel(model_name="gemini-pro")
 
 
